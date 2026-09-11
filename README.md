@@ -34,7 +34,7 @@ print("Python Encoding: \(sys.getdefaultencoding().upper())")
 Add the following dependency to your `Package.swift` manifest:
 
 ```swift
-.package(url: "https://github.com/pvieito/PythonKit.git", branch: "main"),
+.package(url: "https://github.com/pvieito/PythonKit.git", from: "1.0.0"),
 ```
 
 ## Environment Variables
